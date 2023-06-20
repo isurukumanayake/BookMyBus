@@ -1,0 +1,77 @@
+#profile{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	background-color: rgb(255, 199, 199);
+	width: 50%;
+	border-radius: 20px;
+	padding-bottom: 30px;
+}
+
+#profile-pic{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 300px;
+	width: 300px;
+}
+
+#details{
+	background-color: #ffa19d;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+label{
+	color: rgb(0, 0, 0);
+
+}
+
+input[type=text]{
+	border-color: rgb(169, 88, 31);
+	border-radius: 8px;
+	text-align: center;
+	padding: 8px;
+	width: 200px;
+}
+
+textarea{
+	border: 2px solid rgb(169, 88, 31);
+	border-radius: 8px;
+	resize: none;
+	text-align: center;
+}
+
+button{
+	background-color: rgb(255, 128, 128);
+	border-color: rgb(255, 106, 0);
+	border-radius: 20px;
+	margin: 5px 0 15px;
+	padding: 3px 6px;
+}
+
+#field3, #field4{
+	margin-bottom: 15px;
+}
+
+#edit-pencil{
+	height: 12px;
+	vertical-align: middle;
+}
+
+#btnSubmit{
+	width: 150px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+	background-color: rgb(118, 0, 0);
+	border-color: rgb(255, 255, 255);
+	color: white;
+	font-size: 20px;
+}

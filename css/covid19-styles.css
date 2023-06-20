@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+h2{
+	display: block;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#shield{
+	height: 40px;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+
+#vid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border: none;
+}
+
+#description{
+	display: block;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+#measures, #focus{
+	margin-top: 30px;
+}
+
+.points{
+	font-weight: bold;
+}
+
+#pts li{
+	margin-bottom: 20px;
+}

@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+h1{
+	text-align: center;
+}
+
+table{
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 40px;
+	border-style: none;
+}
+
+table td{
+	padding: 20px;
+}
+
+table img{
+	width: 250px;
+	height: 230px;
+	display: block;
+	border: 1px solid black;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+table img:hover{
+	opacity: 0.6;
+}
+
+
+.container{
+  position: relative;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+
+}
+
+.overlay{
+  position: absolute; 
+  bottom: 0; 
+  width: 235px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.container:hover .overlay{
+  opacity: 1;
+}
+
+.overlay button{
+	width: 100%;
+	background: transparent;
+	cursor: pointer;
+}
+
+
+/* The Modal (background) */
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Modal Content (image) */
+.modal-content{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  border: 12px solid white;
+}
+
+/* Caption of Modal Image */
+#modal-caption{
+  margin: auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* The Close Button */
+.close{
+  position: absolute;
+  top: 50px;
+  right: 360px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover{
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#more-btn{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	padding: 5px 30px;
+	border-radius: 4px;
+}
+
+#more-btn:hover{
+	cursor: pointer;
+}
+
+.more-routes{
+	display: none;
+}

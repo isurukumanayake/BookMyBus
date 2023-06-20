@@ -1,0 +1,47 @@
+h1 {
+    color: #820000;
+    font-family: "Abril Fatface", cursive;
+    font-weight: 400;
+  }
+  .bigbox {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px black solid;
+    padding: 30px;
+  }
+  .flex_container_row1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .flex_container_row_2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .icon_picture {
+    border-radius: 40px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .view {
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px;
+    background-color: #fdb2ad;
+    border-radius: 40px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #313131;
+  }
+  hr {
+    margin: 0 30px;
+  }
